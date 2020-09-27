@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-ngrx-component-store-example"
+    }
+  },
+  "defaultProject": "angular-ngrx-component-store-example",
+  "cli": {
+    "analytics": false
+  }
 }

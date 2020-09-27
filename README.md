@@ -1,4 +1,9 @@
-# AngularNgrxComponentStoreExample
+# Angular Ngrx ComponentStoreExample
+
+This project explores the options when using the NGRX component state.
+
+Here is the documentation that was used to create this example:
+https://ngrx.io/guide/component-store
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
 

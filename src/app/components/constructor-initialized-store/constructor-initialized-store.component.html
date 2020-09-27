@@ -1,0 +1,32 @@
+<p>constuctor-initialized-store works!</p>
+
+<div class="property-box">
+  <h3>Array</h3>
+  <pre>{{ array$ | async | json }}</pre>
+</div>
+
+<div class="property-box">
+  <h3>Object</h3>
+  <pre>{{ object$ | async | json}}</pre>
+</div>
+
+<div class="property-box">
+  <h3>String</h3>
+  <div>{{ string$ | async }}</div>
+  <button type="button" (click)="updateString()">Update string</button>
+</div>
+
+<div class="property-box">
+  <h3>Number</h3>
+  <div>{{ number$ | async }}</div>
+  <button type="button" (click)="getRandomNumber()">Get random number</button>
+</div>
+
+<div class="property-box">
+  <h3>Boolean</h3>
+  <div>{{ boolean$ | async }}</div>
+</div>
+
+<div style="display: flex; justify-content: center;">
+  <button type="button" style="padding: 20px; background-color: tomato;" (click)="resetState()">Reset state</button>
+</div>
